@@ -12,10 +12,8 @@ public class Controller extends Main{
 
   public void logoutClicked() throws RuntimeException {
 
-    GridPane test = new GridPane();
-    Scene testScene = new Scene(test,500,500);
 
-    window.setScene(testScene);
+    window.setScene(scene);
     window.show();
   }
 
